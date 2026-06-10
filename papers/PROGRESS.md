@@ -23,7 +23,7 @@ tests, and a README with an objectives-addressed mapping.
 | 4 | E-Commerce + Recsys | `ecommerce_platform/` | ✅ | ✅ | ✅ 3/3 | ✅ | ✅ MySQL+CF |
 | 5 | Online Exam | `online_exam/` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | 6 | Smart Irrigation | `smart_irrigation/` | ✅ | ✅ | ✅ 5/5 | ✅ | ✅ MySQL |
-| 7 | AI Parking Finder | `ai_parking_finder/` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| 7 | AI Parking Finder | `ai_parking_finder/` | ✅ | ✅ | ✅ 5/5 | ✅ | ✅ MySQL+sim |
 | 8 | AI Skin Classifier | `skin_classifier/` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 
 ## Notes

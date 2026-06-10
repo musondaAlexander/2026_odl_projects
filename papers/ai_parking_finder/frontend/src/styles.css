@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+:root { --bg:#0a0f1e; --panel:rgba(22,28,48,.8); --border:rgba(148,163,184,.15);
+  --accent:#38bdf8; --accent2:#6366f1; --text:#e8edf6; --muted:#94a3b8; --ok:#34d399; --danger:#fb7185; }
+* { box-sizing:border-box; }
+body { margin:0; font-family:Inter,system-ui,sans-serif; color:var(--text); background:var(--bg); }
+.nav { display:flex; gap:1rem; align-items:center; padding:.7rem 1.3rem; background:rgba(10,15,30,.85);
+  border-bottom:1px solid var(--border); position:relative; z-index:500; }
+.nav a { color:var(--muted); text-decoration:none; font-weight:600; font-size:.9rem; } .nav a:hover { color:var(--text); }
+.nav .spacer { flex:1; }
+.banner { display:flex; gap:2rem; padding:.8rem 1.3rem; background:var(--panel); border-bottom:1px solid var(--border); }
+.big { font-size:1.8rem; font-weight:800; color:var(--ok); }
+.container { max-width:1000px; margin:1.3rem auto; padding:0 1.3rem; }
+.card { background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:1.2rem; margin-bottom:1.1rem; }
+input,button { font:inherit; padding:.55rem .75rem; border-radius:10px; border:1px solid var(--border); background:rgba(8,12,26,.7); color:var(--text); margin:.25rem 0; }
+input { width:100%; }
+button { background:linear-gradient(135deg,var(--accent),var(--accent2)); color:#04121f; border:none; font-weight:700; cursor:pointer; width:auto; }
+button.secondary { background:rgba(148,163,184,.14); color:var(--text); }
+.row { display:flex; gap:.6rem; align-items:center; flex-wrap:wrap; }
+.muted { color:var(--muted); font-size:.88rem; } .danger { color:var(--danger); }
+table { width:100%; border-collapse:collapse; } th,td { text-align:left; padding:.5rem; border-bottom:1px solid var(--border); font-size:.86rem; }
+.pill { font-size:.7rem; padding:.15rem .55rem; border-radius:999px; }
+.pill.available { background:rgba(52,211,153,.2); color:var(--ok); } .pill.occupied { background:rgba(148,163,184,.18); color:var(--muted); }
+h1 { font-size:1.4rem; } h2 { font-size:1.05rem; }
+.center { min-height:80vh; display:grid; place-items:center; }
