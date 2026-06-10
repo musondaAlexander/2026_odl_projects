@@ -6,21 +6,25 @@
   "scripts": {
     "dev:renderer": "vite",
     "build:renderer": "vite build",
-    "dev": "concurrently -k \"npm:dev:renderer\" \"npm:start:electron\"",
-    "start:electron": "cross-env ELECTRON_RENDERER_URL=http://localhost:5175 electron .",
-    "start": "electron .",
+    "dev:electron": "wait-on tcp:5175 && cross-env ELECTRON_RENDERER_URL=http://localhost:5175 electron .",
+    "dev": "concurrently -k \"npm:dev:renderer\" \"npm:dev:electron\"",
+    "start": "npm run build:renderer && electron .",
+    "rebuild": "electron-rebuild -f -w better-sqlite3",
+    "postinstall": "electron-rebuild -f -w better-sqlite3",
     "test": "node --test"
   },
   "dependencies": {
     "better-sqlite3": "^11.1.2"
   },
   "devDependencies": {
+    "@electron/rebuild": "^3.6.0",
     "@vitejs/plugin-react": "^4.3.1",
     "concurrently": "^8.2.2",
     "cross-env": "^7.0.3",
     "electron": "^31.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "vite": "^5.3.1"
+    "vite": "^5.3.1",
+    "wait-on": "^7.2.0"
   }
 }
