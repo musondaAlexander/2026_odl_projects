@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Phishing Shield (ZUCT)",
+  "version": "0.1.0",
+  "description": "Real-time ML phishing URL detection. Classifies each visited URL via a local Flask/FastAPI model.",
+  "permissions": ["tabs", "webNavigation", "storage", "activeTab"],
+  "host_permissions": ["http://localhost:8000/*"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html", "default_title": "Phishing Shield" },
+  "options_page": "options.html"
+}

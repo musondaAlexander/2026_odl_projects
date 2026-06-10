@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 460px; margin: 2rem auto; background: #0b1020; color: #e5e7eb; }
+    label { display: block; margin: 1rem 0 .3rem; color: #94a3b8; font-size: 13px; }
+    input, textarea { width: 100%; padding: .5rem; border-radius: 8px; border: 1px solid #233; background: #0c1326; color: #e5e7eb; }
+    button { margin-top: 1rem; padding: .5rem 1rem; border: none; border-radius: 8px; background: #38bdf8; color: #03263a; font-weight: 700; cursor: pointer; }
+    .ok { color: #4ade80; }
+  </style>
+</head>
+<body>
+  <h2>🛡️ Phishing Shield — settings</h2>
+  <label>Detection threshold (0–1, higher = fewer alerts)</label>
+  <input id="threshold" type="number" min="0" max="1" step="0.05" />
+  <label>Trusted domains (one per line — skipped from classification)</label>
+  <textarea id="whitelist" rows="6"></textarea>
+  <button id="save">Save</button>
+  <span id="status" class="ok"></span>
+  <script src="options.js"></script>
+</body>
+</html>
