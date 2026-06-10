@@ -24,7 +24,7 @@ tests, and a README with an objectives-addressed mapping.
 | 5 | Online Exam | `online_exam/` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | 6 | Smart Irrigation | `smart_irrigation/` | ✅ | ✅ | ✅ 5/5 | ✅ | ✅ MySQL |
 | 7 | AI Parking Finder | `ai_parking_finder/` | ✅ | ✅ | ✅ 5/5 | ✅ | ✅ MySQL+sim |
-| 8 | AI Skin Classifier | `skin_classifier/` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| 8 | AI Skin Classifier | `skin_classifier/` | ✅ | ✅ | ✅ 5/5 | ✅ | ✅ mock mode |
 
 ## Notes
 - DBs created on the live MySQL as needed: `hospital`, `ecommerce`, `exam`,
