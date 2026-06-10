@@ -18,7 +18,7 @@ tests, and a README with an objectives-addressed mapping.
 | # | Project | Folder | Scaffold | Build | Tests | README | Live verify |
 |---|---------|--------|----------|-------|-------|--------|-------------|
 | 1 | Hospital System | `hospital_system/` | ✅ | ✅ | ✅ 3/3 | ✅ | ✅ MySQL |
-| 2 | Privacy Analytics | `privacy_analytics/` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| 2 | Privacy Analytics | `privacy_analytics/` | ✅ | ✅ | ✅ 4/4 | ✅ | ✅ MySQL |
 | 3 | Phishing Detection | `phishing_detection/` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | 4 | E-Commerce + Recsys | `ecommerce_platform/` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | 5 | Online Exam | `online_exam/` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
