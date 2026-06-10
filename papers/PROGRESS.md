@@ -20,7 +20,7 @@ tests, and a README with an objectives-addressed mapping.
 | 1 | Hospital System | `hospital_system/` | ✅ | ✅ | ✅ 3/3 | ✅ | ✅ MySQL |
 | 2 | Privacy Analytics | `privacy_analytics/` | ✅ | ✅ | ✅ 4/4 | ✅ | ✅ MySQL |
 | 3 | Phishing Detection | `phishing_detection/` | ✅ | ✅ | ✅ 3/3 | ✅ | ✅ trained+API |
-| 4 | E-Commerce + Recsys | `ecommerce_platform/` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| 4 | E-Commerce + Recsys | `ecommerce_platform/` | ✅ | ✅ | ✅ 3/3 | ✅ | ✅ MySQL+CF |
 | 5 | Online Exam | `online_exam/` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | 6 | Smart Irrigation | `smart_irrigation/` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
 | 7 | AI Parking Finder | `ai_parking_finder/` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
