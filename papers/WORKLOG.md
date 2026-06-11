@@ -24,7 +24,10 @@
   several `@Transactional(readOnly)` lazy-load gaps the live test exposed.
 - Env note: local port 8080 is occupied by an unrelated Apache; verified backend on `SERVER_PORT=8088`.
 
-**Next action after commit:** none required — batch complete. (Optional: push when user asks.)
+**Committed:** signed commit `a1c76cf` "Add Online Exam … (papers batch 8/8)", 86 files.
+**Next action:** none required — all 8/8 built, verified, committed. (Push only when user asks;
+GPG signing works via the configured `C:\Program Files\GnuPG\bin\gpg.exe` — bash's bare `gpg`
+is the wrong MSYS one with no key.)
 
 ---
 
@@ -61,6 +64,17 @@ auth/RBAC, admin layer, `.env.example`, seed, tests, README mapping to objective
 ---
 
 ## Log (newest first)
+
+### 2026-06-11 (run-docs / dependency audit)
+- Ran an 8-agent parallel audit (workflow): every project has a README with real
+  install+run instructions and every runnable component has its dependency manifest
+  (package.json / requirements.txt / pom.xml / manifest.json) + `.env.example` where needed.
+  **All 8 verdict = complete.**
+- Reconciled false positives: agents flagged committed `.env`/`node_modules`/`.venv` by
+  reading the filesystem — git confirms NONE are tracked (correctly gitignored).
+- One real gap fixed: `phishing_detection/service/requirements.txt` imported `scipy`
+  (via `app/model.py`) only transitively → added explicit `scipy==1.13.1`. Also fixed a
+  cosmetic "Flask/FastAPI" → "FastAPI" wording in the extension manifest.
 
 ### 2026-06-11
 - Created this `WORKLOG.md` at user's request: maintain one MD file as continuous
