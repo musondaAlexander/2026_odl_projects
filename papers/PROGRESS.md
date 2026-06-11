@@ -1,14 +1,14 @@
 # Build Progress — `papers` batch (8 projects)
 
 Legend: ✅ done · 🟡 in progress · ⬜ not started
-_Last updated: understanding complete; build orchestration starting._
+_Last updated: 2026-06-11 — all 8 built; Online Exam (#5) completed & verified._
 
 ## Phase 0 — Foundation
 - ✅ Read all 8 proposals (parallel workflow) → structured summaries
 - ✅ `TECH_STACK_DECISIONS.md`, `PROGRESS.md`, `README.md`
-- 🟡 Build all 8 (orchestrated)
-- ⬜ Verify each (install + migrate/seed + tests + smoke)
-- ⬜ Commit (signed) + push
+- ✅ Build all 8 (orchestrated)
+- ✅ Verify each (install + migrate/seed + tests + smoke)
+- 🟡 Commit (signed) + push — 7/8 committed; Online Exam = batch 8/8
 
 ## Per-project status
 Each project, when built, has: backend + frontend (or service + extension),
@@ -21,7 +21,7 @@ tests, and a README with an objectives-addressed mapping.
 | 2 | Privacy Analytics | `privacy_analytics/` | ✅ | ✅ | ✅ 4/4 | ✅ | ✅ MySQL |
 | 3 | Phishing Detection | `phishing_detection/` | ✅ | ✅ | ✅ 3/3 | ✅ | ✅ trained+API |
 | 4 | E-Commerce + Recsys | `ecommerce_platform/` | ✅ | ✅ | ✅ 3/3 | ✅ | ✅ MySQL+CF |
-| 5 | Online Exam | `online_exam/` | ⬜ | ⬜ | ⬜ | ⬜ | ⬜ |
+| 5 | Online Exam | `online_exam/` | ✅ | ✅ | ✅ 11+4 | ✅ | ✅ MySQL+TF-IDF |
 | 6 | Smart Irrigation | `smart_irrigation/` | ✅ | ✅ | ✅ 5/5 | ✅ | ✅ MySQL |
 | 7 | AI Parking Finder | `ai_parking_finder/` | ✅ | ✅ | ✅ 5/5 | ✅ | ✅ MySQL+sim |
 | 8 | AI Skin Classifier | `skin_classifier/` | ✅ | ✅ | ✅ 5/5 | ✅ | ✅ mock mode |

@@ -6,6 +6,13 @@
 *.pem
 secret*.json
 
+# ---- Java / Maven ----
+target/
+*.class
+.mvn/wrapper/maven-wrapper.jar
+# Locally downloaded Apache Maven distribution used to build the Spring Boot app
+.tools/
+
 # ---- Node ----
 node_modules/
 dist/
